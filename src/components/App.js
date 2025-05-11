@@ -1,11 +1,12 @@
-import React, {Component, useState} from "react";
-import '../styles/App.css';
+import React from "react";
+import CalendarApp from "./CalendarApp"; // Ensure the filename matches
 
-const App = () => {
+function App() {
   return (
-    <div id="main"></div>
-  )
+    <div className="App">
+      <CalendarApp />
+    </div>
+  );
 }
-
 
 export default App;
