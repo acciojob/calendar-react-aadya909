@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./styles.css";
+import "../styles/App.css";
 
 const months = [
   "January", "February", "March", "April", "May", "June",
